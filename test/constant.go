@@ -13,7 +13,7 @@ const (
 	C3 = "C3C3C3"
 )
 
-func main() {
+func constant() {
 	const s1 = 123
 	var v1 float32 = s1 * 12
 	fmt.Println(v1)
