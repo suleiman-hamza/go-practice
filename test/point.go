@@ -5,10 +5,9 @@ import (
 )
 
 func main() {
-	email := "h"
-	var length int
-	length = getLength(email)
-	if length > 1 {
+	email := "hamzasu"
+
+	if length := getLength(email); length > 1 {
 		fmt.Printf("Email is Valid")
 	} else {
 		fmt.Printf("Email is not Valid")
