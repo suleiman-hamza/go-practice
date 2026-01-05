@@ -9,7 +9,8 @@ type User struct {
 	Age  int
 }
 
-func main() {
+func mainlo() {
+	// using pointers with struct
 	u := User{"Suleiman", 23}
 	p := &u
 	fmt.Println(*p)
