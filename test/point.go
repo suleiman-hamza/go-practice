@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	p := new(bool)
-	*p = true
-	fmt.Print(*p)
+	v := 10
+	v++
+	fmt.Print(v)
 }
