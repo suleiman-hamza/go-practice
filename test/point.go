@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	letters := "ABC"
-	pointer := &letters
-	fmt.Println(*pointer)
+	p := new(bool)
+	*p = true
+	fmt.Print(*p)
 }
