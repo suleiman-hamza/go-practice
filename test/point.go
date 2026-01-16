@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	v := 10
-	v++
-	fmt.Print(v)
+	p := new(string)
+	q := new(string)
+	fmt.Println(*p == *q)
 }
