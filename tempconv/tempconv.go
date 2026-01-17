@@ -1,20 +1,20 @@
+// Package tempconv performs Celsius and Fahrenheit conversions.
 package tempconv
 
 import (
 	"fmt"
 )
 
-// Package tempconv performs Celsius and Fahrenheit conversions.
-
 type Celcius float64
 type Fahrenhiet float64
 
 const (
-	AbsoluteZerpC Celcius = -273.15
+	AbsoluteZeroC Celcius = -273.15
 	BoilingC      Celcius = 100
 	FreezingC     Celcius = 0
 )
 
+// This is a method and it belongs to a Type, it operates on the type Celcius
 func (c Celcius) String() string {
 	return fmt.Sprintf("%g°C", c)
 }
