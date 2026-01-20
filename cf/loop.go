@@ -1,11 +1,18 @@
 package cf
 
-import "fmt"
+import (
+	"fmt"
+	"go-practice/tempconv"
+	"strconv"
+)
 
-var nums [5]int = [5]int{1, 2, 3, 4, 5}
+func Best(Argue []string) {
+	for _, arg := range Argue {
+		t, _ := strconv.ParseFloat(arg, 64)
 
-func Loop() {
-	for i, num := range nums {
-		fmt.Println(i, num)
+		f := tempconv.Fahrenhiet(t)
+		c := tempconv.Celcius(t)
+
+		fmt.Printf("%s = %s, %s = %s\n", f, tempconv.FToC(f), c, tempconv.CToF(c))
 	}
 }
