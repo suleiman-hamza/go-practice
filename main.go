@@ -2,8 +2,11 @@ package main
 
 import (
 	// "fmt"
+	"fmt"
 	"go-practice/cf"
-	// "go-practice/tempconv"
+	"go-practice/tempconv"
+
+	// "go-practice/lengthconv"
 	"os"
 )
 
@@ -14,6 +17,8 @@ func main() {
 	// fmt.Println(c, "=", f)
 
 	// fmt.Println(tempconv.BoilingC)
-	// fmt.Println(tempconv.FreezingC)
+	fmt.Println(tempconv.FreezingC)
 	cf.Best(Arguement)
+	// lengthconv.
+
 }
