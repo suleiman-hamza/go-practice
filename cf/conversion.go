@@ -2,9 +2,8 @@ package cf
 
 import (
 	"fmt"
-	"go-practice/tempconv"
-
 	"go-practice/lengthconv"
+	"go-practice/tempconv"
 	"strconv"
 )
 
