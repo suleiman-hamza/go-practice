@@ -23,4 +23,15 @@ func Arr() {
 		}
 		fmt.Println()
 	}
+
+	// The range keyword does exactly the same job as the iteration variables used in the for
+	// loops of the preceding code segment, but it does so in a more elegant and clearer way.
+	for _, v := range threeD {
+		for _, m := range v {
+			for _, s := range m {
+				fmt.Print(s, " ")
+			}
+		}
+		fmt.Println()
+	}
 }

@@ -1,6 +1,7 @@
 package main
 
-import "go-practice/array"
+// import "go-practice/array"
+import "go-practice/slices"
 
 // "fmt"
 // "go-practice/lengthconv"
@@ -15,6 +16,6 @@ func main() {
 	// fmt.Println(tempconv.FreezingC)
 	// cf.Best(Arguement)
 	// lengthconv.
-	array.Arr()
-
+	// array.Arr()
+	slices.Sli()
 }
