@@ -1,24 +1,20 @@
 package main
 
-import (
-	// "fmt"
-	"fmt"
-	"go-practice/cf"
-	"go-practice/tempconv"
+import "go-practice/array"
 
-	// "go-practice/lengthconv"
-	"os"
-)
+// "fmt"
+// "go-practice/lengthconv"
 
 func main() {
-	Arguement := os.Args[1:]
+	// Arguement := os.Args[1:]
 	// c := tempconv.Celcius(90)
 	// f := tempconv.CToF(c)
 	// fmt.Println(c, "=", f)
 
 	// fmt.Println(tempconv.BoilingC)
-	fmt.Println(tempconv.FreezingC)
-	cf.Best(Arguement)
+	// fmt.Println(tempconv.FreezingC)
+	// cf.Best(Arguement)
 	// lengthconv.
+	array.Arr()
 
 }
